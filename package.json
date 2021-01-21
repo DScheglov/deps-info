@@ -1,6 +1,6 @@
 {
   "name": "deps-info",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Lists information summary for each 1-st level dependency of the project",
   "main": "lib/index.js",
   "bin": {

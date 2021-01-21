@@ -11,11 +11,23 @@ npm i -g deps-info
 ## Usage
 
 ```shell
-deps-info > deps.json
+npx deps-info > deps.json
 ```
 
 or
 
 ```shell
-deps-info --csv > deps.csv
+npx deps-info --csv > deps.csv
+```
+
+or
+
+```shell
+npx deps-info react # prints all dependencies that contain "react" in the name
+```
+
+or
+
+```shell
+npx deps-info --only=prod # prints only production dependencies
 ```
