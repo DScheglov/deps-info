@@ -23,7 +23,7 @@ npx deps-info --csv > deps.csv
 or
 
 ```shell
-npx deps-info react # prints all dependencies that contain "react" in the name
+npx deps-info react next # prints all dependencies that contain "react" or "next" in the name
 ```
 
 or
